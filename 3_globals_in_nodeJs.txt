@@ -14,7 +14,28 @@ Different types of global objects.
         2.  process object can gives a feature or a way to take command line argument and streams.
 
 
+    
     2.  __dirname
         1.  The __dirname in a node script returns the path of the folder where the current JavaScript file resides.
-        2.  __dirname don't always accessible. (need to figure it out)    
+        
+        2.  __dirname don't always accessible. (need to figure it out) 
+                in case of es module scope, __dirname don't work. eg -> path.join(__dirname, "/dd") -> don't work
+
+    
+    3.  module
+        1.  Module pattern in node js.
+
+        2.  two Types of module in node js
+            1.  commonjs module
+                ->  CommonJS modules are the original way to package JavaScript code for Node.js.
+                ->  using require and module.exports or exports
+                -> Bydefaul, Our node project uses commonjs moduling.
+
+
+            2.  es module
+                ->
+
+
+     4. require
+        1.  it helps in consuming some modules.         
         
