@@ -1,0 +1,20 @@
+globals -> provided by runtime.
+
+
+1.  Node.js Global Objects are the objects that are available in all modules. 
+
+2.  Global Objects are built-in objects that are part of the JavaScript and can be used directly in the application without importing any particular module. 
+
+
+Different types of global objects.
+
+    1.  process
+        1.  The process object in Node.js is a global object that can be accessed in any module without requiring it.
+        
+        2.  process object can gives a feature or a way to take command line argument and streams.
+
+
+    2.  __dirname
+        1.  The __dirname in a node script returns the path of the folder where the current JavaScript file resides.
+        2.  __dirname don't always accessible. (need to figure it out)    
+        
