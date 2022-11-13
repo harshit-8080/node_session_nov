@@ -1,0 +1,20 @@
+Q.  What is node js ?
+
+A.
+    1.  Node js is neither a framework nor a library, it's runtime.
+
+    2.  Node js is runtime which use v8 as js engine.
+
+    3.  It was built because ryan dahl want to execute js outside the browser.
+
+    4.  Since We can run node js outside the browser, node js can be run on server as well.
+
+    5.  node js runtime gives us operation system features.
+
+    6.  Express js is framework for node js.
+
+
+Q.  Node Depth (Sync or Async, single or multi)
+
+A.  
+    1.  Still need to figure out................

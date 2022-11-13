@@ -1,0 +1,68 @@
+globals -> provided by runtime.
+
+
+1.  Node.js Global Objects are the objects that are available in all modules. 
+
+2.  Global Objects are built-in objects that are part of the JavaScript and can be used directly in the application without importing any particular module. 
+
+
+Different types of global objects.
+
+    1.  process
+        1.  The process object in Node.js is a global object that can be accessed in any module without requiring it.
+        
+        2.  process object can gives a feature or a way to take command line argument and streams.
+
+
+    
+    2.  __dirname
+        1.  The __dirname in a node script returns the path of the folder where the current JavaScript file resides.
+        
+        2.  __dirname don't always accessible. (need to figure it out) 
+                in case of es module scope, __dirname don't work. eg -> path.join(__dirname, "/dd") -> don't work
+
+    
+    3.  module (********)
+        1.  Module pattern in node js.
+
+        2.  Two Types of moduling pattern in node js
+
+            1.  commonjs moduling -> const printDetail = require("./printDetail.js);
+
+                ->  CommonJS modules are the original way to package JavaScript code for Node.js.
+                ->  using require and module.exports or exports
+                ->  Bydefaul, Our node project uses commonjs moduling.
+                ->  in commonjs moduling pattern, import don't work as it's es moduling pattern.
+                ->  And if file is in es module, either use a file extension as .cjs or mention "type":"commonjs"
+                
+
+            2.  es moduling   -> import printDetail from "./printDetail.js";
+
+                -> To make a file or tell node env that, This is es module, We have two ways.
+                    1.  Make file as .mjs extension, Like hello.mjs
+                    2.  mention "type":"module" in package.json folder
+                
+                -> import {import_example, name} from './example_import.js';
+
+                -> While importing first thing will default export object and second thing will named export object
+                    import obj, {fun,gun} from "./example_import.js
+
+                -> export{
+                        import_example,
+                        name
+                    } 
+
+                -> export function import_example(){
+
+                    } 
+                    
+                ->  export function name(){
+
+                    }          
+
+
+
+     4. require
+        1.  it helps in consuming some modules.     
+        2.  While requiring a module or a file, It also executes it.    
+        
