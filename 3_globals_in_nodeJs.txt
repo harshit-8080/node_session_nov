@@ -22,7 +22,7 @@ Different types of global objects.
                 in case of es module scope, __dirname don't work. eg -> path.join(__dirname, "/dd") -> don't work
 
     
-    3.  module
+    3.  module (********)
         1.  Module pattern in node js.
 
         2.  Two Types of moduling pattern in node js
@@ -42,7 +42,10 @@ Different types of global objects.
                     1.  Make file as .mjs extension, Like hello.mjs
                     2.  mention "type":"module" in package.json folder
                 
-                -> import {import_example, name} from './example_import.mjs';
+                -> import {import_example, name} from './example_import.js';
+
+                -> While importing first thing will default export object and second thing will named export object
+                    import obj, {fun,gun} from "./example_import.js
 
                 -> export{
                         import_example,
