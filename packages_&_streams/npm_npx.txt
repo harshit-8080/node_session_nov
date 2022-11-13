@@ -1,0 +1,10 @@
+1.  npm - node package manager
+    used for managing packages in node project
+
+2.  npx - node package execute
+    1.  NPX is installed automatically with NPM version 5.2.0 and above.
+    2.  It is simply an NPM package runner.
+    3.  it is used to execute javascript packages directly, even without installling it.
+    4.  Example:-
+        npx sequelize db:migrate
+        npx crete-react project
