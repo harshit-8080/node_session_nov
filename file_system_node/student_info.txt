@@ -1,0 +1,5 @@
+            Student info file
+
+1.  This is Harshi Raj as a computer science Student.
+2.  His current address is Hyd.
+3.  His hobby cricket.
