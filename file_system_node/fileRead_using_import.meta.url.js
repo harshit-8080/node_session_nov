@@ -19,7 +19,7 @@ const filePath = new URL("student_info.txt",import.meta.url);
 // })
 
 
-// We can read file using await as well.
+// We can read file using await as well. (await will also work if it's at top level of module in es6)
 
 // const data = await fs.readFile( filePath, {encoding: 'utf8'} );
 // console.log(data);
